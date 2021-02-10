@@ -1,4 +1,10 @@
 <?php
+
+require "VODService.php";
+
+$vod = new VODService("chocolat",3);
+$vod->setName("beure")->setPrice(2);
+
 /**
  * 1. Créez une classe VODService et ajoutez lui les propriétés suivantes:
  *    - name : string
